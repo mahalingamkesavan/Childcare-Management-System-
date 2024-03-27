@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3f97fb24-53a4-483c-ac11-8eb162461b74/resourceGroups/child-care-management-system-UI/providers/Microsoft.Web/sites/Child-care-UI",
+    "appService.deploySubpath": "."
+}

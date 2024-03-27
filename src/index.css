@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section.ant-layout.ant-layout-has-sider.css-dev-only-do-not-override-ixblex {
+  height: 100vh;
+
+}
+
+.logo {
+  color: #ffffff;
+  height: 64px;
+  align-items: center !important;
+}
+
+.logo svg {
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+.ant-table {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.ant-menu-item.ant-menu-item-active {
+  background-color: blue !important;
+}
+
+.ant-menu-item .ant-menu-item-selected{
+  color: #001529 !important;
+  background-color: #15d331 !important;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-menu-light .ant-menu-item-selected {
+  color: #001529 !important;
+  background-color: #15d331 !important;
+}
+
+.ant-menu-submenu .ant-menu-submenu-inline .ant-menu-submenu-open {
+  color: #001529 !important;
+  background-color: #15d331 !important;
+}
